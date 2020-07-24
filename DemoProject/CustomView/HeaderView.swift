@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HeaderView: UIView {
+@IBDesignable class HeaderView: UIView {
     @IBOutlet private weak var titleLabel:UILabel!
     @IBOutlet private weak var userName:UILabel!
     let nibName = "HeaderView"
@@ -17,6 +17,7 @@ class HeaderView: UIView {
     // MARK: - Initialize View
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        self.backgroundColor = .green
         guard let view = loadViewFromNib() else { return }
         titleLabel = (view.viewWithTag(1) as! UILabel)
         userName = (view.viewWithTag(2) as! UILabel)

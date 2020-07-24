@@ -15,7 +15,7 @@
 		1892F92124C07F100051ED85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1892F91F24C07F100051ED85 /* LaunchScreen.storyboard */; };
 		1892F92C24C08D760051ED85 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892F92B24C08D760051ED85 /* HeaderView.swift */; };
 		1892F92E24C08D870051ED85 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1892F92D24C08D870051ED85 /* HeaderView.xib */; };
-		1892F93024C0C8160051ED85 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892F92F24C0C8160051ED85 /* MainViewController.swift */; };
+		1892F93024C0C8160051ED85 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892F92F24C0C8160051ED85 /* BaseViewController.swift */; };
 		1892F93324C0F4B30051ED85 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892F93224C0F4B30051ED85 /* ViewControllerExtension.swift */; };
 		1892F93624C0FA450051ED85 /* TextField+ValidationCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892F93524C0FA450051ED85 /* TextField+ValidationCheck.swift */; };
 		1892F93824C0FC7E0051ED85 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892F93724C0FC7E0051ED85 /* ViewModel.swift */; };
@@ -44,7 +44,7 @@
 		1892F92224C07F100051ED85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1892F92B24C08D760051ED85 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1892F92D24C08D870051ED85 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
-		1892F92F24C0C8160051ED85 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1892F92F24C0C8160051ED85 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		1892F93224C0F4B30051ED85 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		1892F93524C0FA450051ED85 /* TextField+ValidationCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+ValidationCheck.swift"; sourceTree = "<group>"; };
 		1892F93724C0FC7E0051ED85 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 		1892F94624C19B010051ED85 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				1892F92F24C0C8160051ED85 /* MainViewController.swift */,
+				1892F92F24C0C8160051ED85 /* BaseViewController.swift */,
 				1892F91824C07F0E0051ED85 /* LoginVC.swift */,
 				1892F94B24C19C790051ED85 /* ItemDetailVC.swift */,
 				1892F94D24C1DBC30051ED85 /* ItemsListVC.swift */,
@@ -355,7 +355,7 @@
 				1892F94C24C19C790051ED85 /* ItemDetailVC.swift in Sources */,
 				1892F94E24C1DBC30051ED85 /* ItemsListVC.swift in Sources */,
 				1892F93D24C0FD190051ED85 /* Utilities.swift in Sources */,
-				1892F93024C0C8160051ED85 /* MainViewController.swift in Sources */,
+				1892F93024C0C8160051ED85 /* BaseViewController.swift in Sources */,
 				1892F94324C10C360051ED85 /* AuthInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

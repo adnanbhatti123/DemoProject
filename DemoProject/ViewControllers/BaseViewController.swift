@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class BaseViewController: UIViewController {
     @IBOutlet weak var headerView:HeaderView!
     override func viewDidLoad() {
         super.viewDidLoad()

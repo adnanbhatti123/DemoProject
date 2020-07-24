@@ -7,7 +7,7 @@
 //
 
 import UIKit
-class LoginVC: MainViewController {
+class LoginVC: BaseViewController {
     @IBOutlet weak var userName:UITextField!
     @IBOutlet weak var password:UITextField!
     @IBOutlet weak var loginBtn:UIButton!

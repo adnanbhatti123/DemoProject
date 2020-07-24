@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ItemsListVC: MainViewController {
+class ItemsListVC: BaseViewController {
     @IBOutlet weak var tableView:UITableView!
     let cellIdentifier = "ItemCell"
     override func viewDidLoad() {
